@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.aop;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  */
 @Aspect
 @Component
-public class WebControllerAop {
+public class WebLogAop {
 
     private Logger logger =  LoggerFactory.getLogger(this.getClass());
 
